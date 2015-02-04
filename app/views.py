@@ -18,7 +18,8 @@ import time
 @app.route('/')
 def home():
     """Render website's home page."""
-    return render_template('home.html')
+    #return render_template('home.html')
+    return profile()
 
 
 @app.route('/about/')
